@@ -1,10 +1,13 @@
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import NavbarComp from "./components/Navbar/NavbarComp";
 
 function App() {
   return (
-    <div className="App ">
-           merhaba
+    <div>
+      <BrowserRouter>
+        <NavbarComp />
+      </BrowserRouter>
     </div>
   );
 }
