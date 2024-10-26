@@ -1,40 +1,64 @@
 .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   z-index: 1000;
   padding: 60px;
   font-weight: 600;
   border-top: black solid 5px;
-  border-bottom: 1px solid black;
 }
 .main-container span:hover {
-  transition: all 0.7s;
+  transition: all 0.7s ease;
   color: black;
 }
 .navbar-brand {
   font-size: xx-large;
+  margin-right: 50px;
 }
 .navClass {
   width: 100%;
   margin-top: 25px;
 }
 .navIcons {
-  width: 80px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: x-large;
-  margin-left: 150px;
+  margin-left: auto;
   cursor: pointer;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-size: x-large;
 }
 
+/* Tablet Screen (max-width: 768px) */
 @media only screen and (max-width: 768px) {
+  .main-container {
+    padding-top: 60px; /* Adjust based on icon size */
+  }
   header h1 {
     font-size: 4rem;
   }
+  .navIcons {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
+/* Tablet Screen (max-width: 576px) */
 @media only screen and (max-width: 576px) {
   header h1 {
     font-size: 3rem;
+  }
+  .navIcons {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main-container {
+    padding-top: 50px; /* Ensure enough space */
   }
 }
