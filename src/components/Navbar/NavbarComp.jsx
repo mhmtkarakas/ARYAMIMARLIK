@@ -17,25 +17,26 @@ const NavbarComp = () => {
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="justify-content-end  w-100 ">
-              <Nav.Link href="/" className="active text-uppercase mx-2 ">
+            <Nav className=" justify-content-end  w-100 ">
+              <div className="nav-link">
+              <Nav.Link href="/" className=" active text-uppercase mx-2 ">
                 {" "}
                 <span>Anasayfa</span>
               </Nav.Link>
 
-              <Nav.Link href="/about" className="text-uppercase mx-2 ">
+              <Nav.Link href="/about" className=" text-uppercase mx-2 ">
                 <span>KURUMSAL</span>{" "}
               </Nav.Link>
               <Nav.Link href="/about" className="text-uppercase mx-2 ">
                 <span>İŞ ORTAKLARIMIZ</span>{" "}
               </Nav.Link>
-              <Nav.Link href="/about" className="text-uppercase  mx-2 ">
+              <Nav.Link href="/about" className=" text-uppercase  mx-2 ">
                 <span>REFERANSLARIMIZ</span>{" "}
               </Nav.Link>
-              <Nav.Link href="/contact" className="text-uppercase mx-2 ">
+              <Nav.Link href="/contact" className=" text-uppercase mx-2 ">
                 <span>İletİŞİm</span>
               </Nav.Link>
-
+              </div>
               <div className="navIcons">
                 <FaFacebook />
                 <FaInstagram />

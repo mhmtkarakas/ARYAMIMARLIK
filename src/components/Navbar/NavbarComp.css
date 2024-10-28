@@ -19,6 +19,11 @@
   width: 100%;
   margin-top: 25px;
 }
+.nav-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navIcons {
   padding-right: 5px;
   margin-right: 0;
@@ -31,35 +36,77 @@
   margin-top: 0;
   font-size: x-large;
 }
-
-/* Tablet Screen (max-width: 768px) */
-@media only screen and (max-width: 768px) {
-  .main-container {
-    padding-top: 60px; /* Adjust based on icon size */
-  }
-  header h1 {
-    font-size: 4rem;
-  }
-  .navIcons {
-    position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
 /* Phone Screen (max-width: 576px) */
 @media only screen and (max-width: 576px) {
-  header h1 {
-    font-size: 3rem;
-  }
+
   .navIcons {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
+    top: 300px; /* Adjust as needed */
+    left: 17px;
   }
   .main-container {
     padding-top: 50px; /* Ensure enough space */
   }
+  .navbar-brand{
+    margin-right: 0;
+  }
+  .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
+
+/* Tablet Screen (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .navbar-brand{
+    margin-right: 0;
+  }
+  .main-container {
+    padding-top: 60px; /* Adjust based on icon size */
+  }
+  .navIcons {
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 17px;
+  }
+  .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+  .navbar-brand{
+    margin-right: 0;
+  }
+  .navIcons {
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 17px;
+  }
+  .nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .navbar-brand{
+    margin-right: 0;
+  }
+ .nav-link{
+  margin: auto;
+ }
+ .navbar-brand{
+  font-size: x-large;
+ }
+ .nav-icons{
+  font-size: large;
+  gap: 10px;
+ }
+}
+
