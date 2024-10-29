@@ -18,8 +18,9 @@
 .navClass {
   width: 100%;
   margin-top: 25px;
+  background-color: white;
 }
-.nav-link{
+.nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +39,9 @@
 }
 /* Phone Screen (max-width: 576px) */
 @media only screen and (max-width: 576px) {
+  .navClass{
+    overflow: auto;
+  }
 
   .navIcons {
     position: absolute;
@@ -47,10 +51,10 @@
   .main-container {
     padding-top: 50px; /* Ensure enough space */
   }
-  .navbar-brand{
+  .navbar-brand {
     margin-right: 0;
   }
-  .nav-link{
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -59,7 +63,8 @@
 
 /* Tablet Screen (max-width: 768px) */
 @media only screen and (max-width: 768px) {
-  .navbar-brand{
+  
+  .navbar-brand {
     margin-right: 0;
   }
   .main-container {
@@ -70,15 +75,14 @@
     top: 300px; /* Adjust as needed */
     left: 17px;
   }
-  .nav-link{
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
- 
-  .navbar-brand{
+  .navbar-brand {
     margin-right: 0;
   }
   .navIcons {
@@ -86,7 +90,7 @@
     top: 300px; /* Adjust as needed */
     left: 17px;
   }
-  .nav-link{
+  .nav-link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -94,19 +98,17 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
-  .navbar-brand{
+  .navbar-brand {
     margin-right: 0;
   }
- .nav-link{
-  margin: auto;
- }
- .navbar-brand{
-  font-size: x-large;
- }
- .nav-icons{
-  font-size: large;
-  gap: 10px;
- }
+  .nav-link {
+    margin: auto;
+  }
+  .navbar-brand {
+    font-size: x-large;
+  }
+  .nav-icons {
+    font-size: large;
+    gap: 10px;
+  }
 }
-
