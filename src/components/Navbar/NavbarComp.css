@@ -5,6 +5,7 @@
   padding-bottom: 60px;
   font-weight: 600;
   border-top: black solid 5px;
+  background-color: #fff;
 }
 .main-container span:hover {
   transition: all 0.7s ease;
@@ -12,13 +13,12 @@
 }
 .navbar-brand {
   font-size: xx-large;
-  padding-left: 5px;
+  padding-left: 15px;
   margin-right: 100px;
 }
 .navClass {
   width: 100%;
   margin-top: 25px;
-  background-color: white;
 }
 .nav-link {
   display: flex;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 .navIcons {
-  padding-right: 5px;
+  padding-right: 24px;
   margin-right: 0;
   margin-left: auto;
   cursor: pointer;
@@ -40,40 +40,45 @@
 /* Phone Screen (max-width: 576px) */
 @media only screen and (max-width: 576px) {
   .navClass{
-    overflow: auto;
-  }
-
-  .navIcons {
-    position: absolute;
-    top: 300px; /* Adjust as needed */
-    left: 17px;
-  }
-  .main-container {
-    padding-top: 50px; /* Ensure enough space */
-  }
-  .navbar-brand {
-    margin-right: 0;
+    padding: 20px;
   }
   .nav-link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
+  .navIcons {
+    position: absolute;
+    gap: 5px;
+    top: 0; 
+    left: 0;
+  }
+  .main-container {
+    padding-top: 50px; /* Ensure enough space */
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding:5px;
+  }
 }
 
 /* Tablet Screen (max-width: 768px) */
 @media only screen and (max-width: 768px) {
-  
+  .navClass{
+    padding: 20px;
+  }
   .navbar-brand {
     margin-right: 0;
+    padding:5px;
   }
   .main-container {
     padding-top: 60px; /* Adjust based on icon size */
   }
   .navIcons {
     position: absolute;
-    top: 300px; /* Adjust as needed */
-    left: 17px;
+    gap: 5px;
+    top: 320px; 
+    left: 28px;
   }
   .nav-link {
     display: flex;
@@ -82,13 +87,18 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  .navClass{
+    padding: 20px;
+  }
   .navbar-brand {
     margin-right: 0;
+    padding:5px;
   }
   .navIcons {
     position: absolute;
-    top: 300px; /* Adjust as needed */
-    left: 17px;
+    gap: 5px;
+    top: 320px; /* Adjust as needed */
+    left: 28px;
   }
   .nav-link {
     display: flex;
@@ -100,6 +110,7 @@
 @media (min-width: 992px) and (max-width: 1200px) {
   .navbar-brand {
     margin-right: 0;
+    padding:5px;
   }
   .nav-link {
     margin: auto;

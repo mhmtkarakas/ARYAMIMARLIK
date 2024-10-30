@@ -1,5 +1,11 @@
 import React from "react"
+import "./Slider.css"
+
 import slider_1 from "../../asisst/slider_1.jpg"
+import slider_2 from "../../asisst/slider_2.jpg"
+import slider_3 from "../../asisst/slider_3.webp"
+import slider_4 from "../../asisst/slider_4.webp"
+import slider_5 from "../../asisst/slider_5.jpg"
 
 const Slider = () => {
   return (
@@ -30,6 +36,18 @@ const Slider = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+             <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+            <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -42,7 +60,7 @@ const Slider = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
+            <img src={slider_2} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -51,7 +69,25 @@ const Slider = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
+            <img src={slider_3} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={slider_4} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={slider_5} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>

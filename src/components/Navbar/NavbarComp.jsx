@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const NavbarComp = () => {
   return (
     <div className="main-container">
-      <Navbar expand="lg" className=" fixed-top navbar-light  ">
+      <Navbar expand="lg" className=" fixed-top navbar-light bg-light  ">
         <Container fluid className="navClass">
           <Navbar.Brand>
             <Link to="/" className="navbar-brand text-dark fw-bold">
