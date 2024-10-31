@@ -1,11 +1,11 @@
-import React from "react"
-import "./Slider.css"
+import React from "react";
+import "./Slider.css";
 
-import slider_1 from "../../asisst/slider_1.jpg"
-import slider_2 from "../../asisst/slider_2.jpg"
-import slider_3 from "../../asisst/slider_3.webp"
-import slider_4 from "../../asisst/slider_4.webp"
-import slider_5 from "../../asisst/slider_5.jpg"
+import slider_1 from "../../asisst/slider_1.jpg";
+import slider_2 from "../../asisst/slider_2.jpg";
+import slider_3 from "../../asisst/slider_3.webp";
+import slider_4 from "../../asisst/slider_4.webp";
+import slider_5 from "../../asisst/slider_5.jpg";
 
 const Slider = () => {
   return (
@@ -36,13 +36,13 @@ const Slider = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-             <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
-            <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="4"
@@ -51,49 +51,37 @@ const Slider = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slider_1} className="d-block w-100" alt="..." />
+            <img
+              src={slider_1}
+              className="d-block w-100"
+              alt="KutahyaSeramik"
+            />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <h1 className="motto">
+                Geçmişten Günümüze Kalitenin Peşinde, <br />
+                Geleceğin İzinde
+              </h1>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={slider_2} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
+            <img
+              src={slider_2}
+              className="d-block w-100"
+              alt="KutahyaSeramik"
+            />
           </div>
           <div className="carousel-item">
-            <img src={slider_3} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
+            <img src={slider_3} className="d-block w-100" alt="OrkaBanyo" />
           </div>
           <div className="carousel-item">
-            <img src={slider_4} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
+            <img src={slider_4} className="d-block w-100" alt="CreavitBanyo" />
           </div>
           <div className="carousel-item">
-            <img src={slider_5} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
+            <img
+              src={slider_5}
+              className="d-block w-100"
+              alt="KutahyaSeramik"
+            />
           </div>
         </div>
         <button
