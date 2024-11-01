@@ -10,6 +10,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration (1 second)
+      once: true, 
     });
   }, []); // Empty dependency array to ensure it runs once on component mount
 

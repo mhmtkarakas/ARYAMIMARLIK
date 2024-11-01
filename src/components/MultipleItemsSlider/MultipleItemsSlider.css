@@ -1,0 +1,20 @@
+.swiper-container{
+    margin-top: 100px; /* Üstten boşluk */
+    background-color: #F7F7F7; /* Arka plan rengi */
+    height: 100vh; /* Swiper yüksekliği */
+    position: relative;
+}
+.swiper-slides {
+    position: absolute; /* Wrapper'ı konumlandır */
+    top: 50%; /* Sayfanın ortasına yerleştir */
+    left: 50%; /* Sayfanın ortasına yerleştir */
+    transform: translate(-50%, -50%); /* Dikey ve yatay olarak ortala */
+    width: 80%; /* Tam genişlik */
+    height: auto; /* Yüksekliği otomatik ayarla */
+}
+
+.slider-image {
+    width: 100%;    /* Slayta göre tam genişlik */
+    height: 500px;  /* İstediğiniz yüksekliği ayarlayın */
+    object-fit: cover; /* Resmi kırpmak yerine sığdırır */
+  }
