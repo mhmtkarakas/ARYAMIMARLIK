@@ -1,0 +1,23 @@
+.container {
+  margin-top: 10rem;
+}
+.card-group {
+ display: flex;
+  gap: 20px; 
+  justify-content: center; 
+}
+.card {
+  border: none;
+  border-bottom: 4px solid black;
+  padding: 4px;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card img {
+  max-height: 100px;
+  object-fit: contain; 
+  width: 100%; 
+}

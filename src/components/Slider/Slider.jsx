@@ -56,11 +56,11 @@ const Slider = () => {
               className="d-block w-100"
               alt="KutahyaSeramik"
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h1 className="motto">
+            <div className="carousel-caption d-md-block">
+              <p className="motto">
                 Geçmişten Günümüze Kalitenin Peşinde, <br />
                 Geleceğin İzinde
-              </h1>
+              </p>
             </div>
           </div>
           <div className="carousel-item">
