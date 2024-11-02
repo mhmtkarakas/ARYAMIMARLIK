@@ -9,7 +9,7 @@ import Home from "../src/pages/Home/Home.jsx";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration (1 second)
+      duration: 1500, // Animation duration (1 second)
       once: true, 
     });
   }, []); // Empty dependency array to ensure it runs once on component mount

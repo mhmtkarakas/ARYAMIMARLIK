@@ -1,20 +1,44 @@
-.swiper-container{
-    margin-top: 100px; /* Üstten boşluk */
-    background-color: #F7F7F7; /* Arka plan rengi */
-    height: 100vh; /* Swiper yüksekliği */
-    position: relative;
+.swiper-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 100px;
+  background-color: #f7f7f7;
+  height: 100vh;
 }
 .swiper-slides {
-    position: absolute; /* Wrapper'ı konumlandır */
-    top: 50%; /* Sayfanın ortasına yerleştir */
-    left: 50%; /* Sayfanın ortasına yerleştir */
-    transform: translate(-50%, -50%); /* Dikey ve yatay olarak ortala */
-    width: 80%; /* Tam genişlik */
-    height: auto; /* Yüksekliği otomatik ayarla */
+  margin: 10px;
+  width: 80%;
+}
+.swiper-slides h3 {
+  margin-bottom: 65px;
+}
+.slider-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+/* responsive design */
+@media (max-width: 576px) {
+  .slider-image {
+    height: 500px; 
+    width: 100%;
+  }
+  .swiper-slides h3 {
+  font-size:20px;
+  font-weight: 500;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .slider-image {
+    height: 500px; 
+    width: 100%;
+  }
 }
 
-.slider-image {
-    width: 100%;    /* Slayta göre tam genişlik */
-    height: 500px;  /* İstediğiniz yüksekliği ayarlayın */
-    object-fit: cover; /* Resmi kırpmak yerine sığdırır */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .slider-image {
+    height: 500px; 
+    width: 100%;
   }
+}

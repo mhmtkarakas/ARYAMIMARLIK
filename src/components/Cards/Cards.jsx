@@ -10,7 +10,7 @@ const Cards = () => {
     <div className="container" data-aos="fade-up">
       <div className="card-group text-center ">
         <div className="card ">
-          <img src={eye} className="card-img-top" alt="..." />
+          <img src={eye} className="card-img-top" alt="Goz" />
           <div className="card-body ">
             <h3 className="card-title my-4 fw-bold">Modern ve Vizyoner Bakış Açısı</h3>
             <p className="card-text my-2">
@@ -24,7 +24,7 @@ const Cards = () => {
           </div>
         </div>
         <div className="card">
-          <img src={tile} className="card-img-top" alt="..." />
+          <img src={tile} className="card-img-top" alt="Fayans" />
           <div className="card-body">
             <h3 className="card-title my-4 fw-bold">Şık ve Kaliteli Ürünler</h3>
             <p className="card-text my-2">
@@ -36,7 +36,7 @@ const Cards = () => {
           </div>
         </div>
         <div className="card">
-          <img src={people} className="card-img-top" alt="..." />
+          <img src={people} className="card-img-top" alt="Personel" />
           <div className="card-body">
             <h4 className="card-title my-4 fw-bold">Alanında Uzman, Deneyimli Kadro</h4>
             <p className="card-text my-2">
