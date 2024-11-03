@@ -18,6 +18,8 @@ import mslider_7 from "../../asisst/mslider_7.png";
 import mslider_8 from "../../asisst/mslider_8.png";
 import mslider_9 from "../../asisst/mslider_9.png";
 import mslider_10 from "../../asisst/mslider_10.png";
+import mslider_11 from "../../asisst/mslider_11.png";
+import mslider_12 from "../../asisst/mslider_12.png";
 
 import "./MultipleItemsSlider.css";
 
@@ -96,6 +98,12 @@ const MultipleItemsSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={mslider_10} alt="Crauf" className="slider-image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={mslider_11} alt="Crauf" className="slider-image" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={mslider_12} alt="Crauf" className="slider-image" />
           </SwiperSlide>
         </Swiper>
       </div>
