@@ -20,6 +20,8 @@ import mslider_9 from "../../asisst/mslider_9.png";
 import mslider_10 from "../../asisst/mslider_10.png";
 import mslider_11 from "../../asisst/mslider_11.png";
 import mslider_12 from "../../asisst/mslider_12.png";
+import mslider_13 from "../../asisst/mslider_13.png";
+import mslider_14 from "../../asisst/mslider_14.png";
 
 import "./MultipleItemsSlider.css";
 
@@ -67,43 +69,101 @@ const MultipleItemsSlider = () => {
         >
           <SwiperSlide>
             <img
-              src={mslider_1}
-              alt="NGkutahyaSeramik"
-              className="slider-image"
+              src={mslider_13}
+              alt="AkgunSeramik"
+              className="slider-image img-fluid"
             />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_2} alt="CreavitBanyo" className="slider-image" />
+            <img
+              src={mslider_1}
+              alt="NGkutahyaSeramik"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_3} alt="Roca" className="slider-image" />
+            <img
+              src={mslider_2}
+              alt="CreavitBanyo"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_4} alt="Penta" className="slider-image" />
+            <img
+              src={mslider_3}
+              alt="Roca"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_5} alt="Sukar" className="slider-image" />
+            <img
+              src={mslider_4}
+              alt="Penta"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_6} alt="Artemis" className="slider-image" />
+            <img
+              src={mslider_5}
+              alt="Sukar"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_7} alt="EvaBanyo" className="slider-image" />
+            <img
+              src={mslider_6}
+              alt="Artemis"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_8} alt="OrkaBanyo" className="slider-image" />
+            <img
+              src={mslider_7}
+              alt="EvaBanyo"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_9} alt="YashamDuvarKagidi" className="slider-image" />
+            <img
+              src={mslider_8}
+              alt="OrkaBanyo"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_10} alt="Crauf" className="slider-image" />
+            <img
+              src={mslider_9}
+              alt="YashamDuvarKagidi"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_11} alt="Crauf" className="slider-image" />
+            <img
+              src={mslider_10}
+              alt="Crauf"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={mslider_12} alt="Crauf" className="slider-image" />
+            <img
+              src={mslider_11}
+              alt="Crauf"
+              className="slider-image img-fluid"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src={mslider_12}
+              alt="Crauf"
+              className="slider-image img-fluid"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img
+              src={mslider_14}
+              alt="FixaYapiKim"
+              className="slider-image img-fluid"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
