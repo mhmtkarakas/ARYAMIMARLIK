@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedText from "../../components/AnimatedText/AnimatedText";
 import Bathroom from "../../components/Bathroom/Bathroom";
 import Cards from "../../components/Cards/Cards";
 import Footer from "../../components/Footer/Footer";
@@ -12,6 +13,7 @@ const Anasayfa = () => {
       <Cards />
       <MultipleItemsSlider />
       <Bathroom />
+      <AnimatedText />
       <Footer />
     </div>
   );

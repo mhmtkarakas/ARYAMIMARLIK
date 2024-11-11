@@ -7,7 +7,7 @@ import location from "../../asisst/location.png";
 
 const Footer = () => {
   return (
-   <div className="footer_container">
+   <div className="footer_container" data-aos="fade-up">
 <div className="footer-card-group">
   <div className="footer-card">
     <img src={phone} className="card-img-top" alt="phoneicon"/>
@@ -35,6 +35,7 @@ const Footer = () => {
     </div>
   </div>
 </div>
+
    </div>
   )
 };
