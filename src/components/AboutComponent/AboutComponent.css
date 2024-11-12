@@ -1,0 +1,68 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.about-content {
+  width: 30%; 
+}
+
+.description {
+  font-family: "Cormorant", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  font-family: "Cormorant", Sans-serif;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #222222; /* İstediğiniz buton rengi */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cta-button:hover{
+    transition: all 0.7s;
+    opacity: .9;
+}
+
+.aboutImg {
+  width: 70%; /* %70'lik alan */
+  display: flex;
+  justify-content: flex-end; /* Resmi sağa hizala */
+}
+
+.aboutImg img {
+  width: 100%; 
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    width: 100%; 
+    padding: 10px;
+  }
+
+  .about-content {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+
+  .aboutImg {
+    width: 100%;
+  }
+}

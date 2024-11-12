@@ -1,4 +1,5 @@
 import React from "react";
+import AboutComponent from "../../components/AboutComponent/AboutComponent";
 import AnimatedText from "../../components/AnimatedText/AnimatedText";
 import Bathroom from "../../components/Bathroom/Bathroom";
 import Cards from "../../components/Cards/Cards";
@@ -12,6 +13,7 @@ const Anasayfa = () => {
       <Slider />
       <Cards />
       <MultipleItemsSlider />
+      <AboutComponent />
       <Bathroom />
       <AnimatedText />
       <Footer />
