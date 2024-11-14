@@ -9,6 +9,9 @@ import "aos/dist/aos.css";
 
 
 import Home from "../src/pages/Home/Home.jsx";
+import Footer from './components/Footer/Footer';
+import BusinessPartners from "./pages/BusinessPartners/BusinessPartners";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -23,7 +26,9 @@ function App() {
         <NavbarComp />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/isortaklarimiz" element={<BusinessPartners />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -27,7 +27,7 @@ const NavbarComp = () => {
                 <Nav.Link href="/kurumsal" className=" text-uppercase mx-2 ">
                   <span>KURUMSAL</span>{" "}
                 </Nav.Link>
-                <Nav.Link href="/about" className="text-uppercase mx-2 ">
+                <Nav.Link href="/isortaklarimiz" className="text-uppercase mx-2 ">
                   <span>İŞ ORTAKLARIMIZ</span>{" "}
                 </Nav.Link>
                 <Nav.Link href="/about" className=" text-uppercase  mx-2 ">

@@ -1,5 +1,4 @@
 .footer_container {
-
   width: 100%;
   margin: auto;
   margin-top: 75px;
@@ -43,13 +42,12 @@
   font-size: 1rem;
   height: 30vh;
   border-top: 4px solid black;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .footer-icons {
   display: flex;
   gap: 15px;
- 
 }
 
 .icon {
@@ -82,12 +80,12 @@
 
 @media (max-width: 768px) {
   .footer-card-group {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
 
   .footer-card {
-    max-width: 100%; 
+    max-width: 100%;
   }
   .footer {
     flex-direction: column;
@@ -95,7 +93,7 @@
     text-align: center;
   }
   .footer-icons {
-    margin-bottom: 10px; /* Her eleman arasında boşluk bırakır */
+    margin-bottom: 10px;
   }
 
   .footer-center h2 {
@@ -104,12 +102,12 @@
 
   .footer-info {
     text-align: center;
-    font-size: 0.8rem; /* Küçük ekranlarda metin boyutunu biraz küçültür */
+    font-size: 0.8rem;
   }
 }
 
 @media (max-width: 480px) {
   .footer-card-text {
-    font-size: 16px; 
+    font-size: 16px;
   }
 }
