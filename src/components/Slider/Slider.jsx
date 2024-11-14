@@ -7,6 +7,7 @@ import slider_3 from "../../asisst/slider_3.webp";
 import slider_4 from "../../asisst/slider_4.webp";
 import slider_5 from "../../asisst/slider_5.jpg";
 import slider_6 from "../../asisst/slider_6.jpg";
+import slider_7 from "../../asisst/slider_7.jpg";
 
 const Slider = () => {
   return (
@@ -55,6 +56,12 @@ const Slider = () => {
             data-bs-slide-to="5"
             aria-label="Slide 6"
           ></button>
+           <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -73,6 +80,13 @@ const Slider = () => {
           <div className="carousel-item">
             <img
               src={slider_2}
+              className="d-block w-100"
+              alt="KutahyaSeramik"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={slider_7}
               className="d-block w-100"
               alt="KutahyaSeramik"
             />

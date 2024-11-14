@@ -1,5 +1,5 @@
 .footer_container {
-  border-bottom: 4px solid black;
+
   width: 100%;
   margin: auto;
   margin-top: 75px;
@@ -33,6 +33,53 @@
   width: 100%;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+  font-size: 1rem;
+  height: 30vh;
+  border-top: 4px solid black;
+  flex-wrap: wrap; 
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+ 
+}
+
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  height: 2rem;
+  width: 2rem;
+  padding: 5px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: #ddd;
+}
+
+.footer-center h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.footer-info {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .footer-card-group {
     flex-direction: column; 
@@ -41,6 +88,23 @@
 
   .footer-card {
     max-width: 100%; 
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-icons {
+    margin-bottom: 10px; /* Her eleman arasında boşluk bırakır */
+  }
+
+  .footer-center h2 {
+    margin-bottom: 10px;
+  }
+
+  .footer-info {
+    text-align: center;
+    font-size: 0.8rem; /* Küçük ekranlarda metin boyutunu biraz küçültür */
   }
 }
 

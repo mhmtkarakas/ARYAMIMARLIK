@@ -7,7 +7,7 @@ import aboutImg from "../../asisst/about-img.jpeg";
 const AboutComponent = () => {
   return (
     <div className="about-container">
-      <div className="about-content">
+      <div className="about-content" data-aos="fade-right">
         <p className="description">
           Sağlam Temeller Üzerinde Güven İnşa Ediyor, Kaliteyi ve Hizmeti
           Sizlerle Buluşturuyoruz.
@@ -16,7 +16,7 @@ const AboutComponent = () => {
           <button className="cta-button">Kurumsal</button>
         </Link>
       </div>
-      <div className="aboutImg">
+      <div className="aboutImg" data-aos="fade-left">
         <img src={aboutImg} alt="Example" />
       </div>
     </div>

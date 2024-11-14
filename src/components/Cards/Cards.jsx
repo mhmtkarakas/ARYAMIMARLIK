@@ -7,9 +7,9 @@ import people from "../../asisst/people.png";
 
 const Cards = () => {
   return (
-    <div className="container" data-aos="fade-up">
-      <div className="card-group text-center ">
-        <div className="card ">
+    <div className="container" >
+      <div className="card-group text-center " >
+        <div className="card " data-aos="fade-right">
           <img src={eye} className="card-img-top" alt="Goz" />
           <div className="card-body ">
             <h3 className="card-title my-4 fw-bold">Modern ve Vizyoner Bakış Açısı</h3>
@@ -23,7 +23,7 @@ const Cards = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-up">
           <img src={tile} className="card-img-top" alt="Fayans" />
           <div className="card-body">
             <h3 className="card-title my-4 fw-bold">Şık ve Kaliteli Ürünler</h3>
@@ -35,9 +35,9 @@ const Cards = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-left">
           <img src={people} className="card-img-top" alt="Personel" />
-          <div className="card-body">
+          <div className="card-body" >
             <h4 className="card-title my-4 fw-bold">Alanında Uzman, Deneyimli Kadro</h4>
             <p className="card-text my-2">
               Alanında uzman ve deneyimli ekibimiz, her aşamada müşterilerimize
