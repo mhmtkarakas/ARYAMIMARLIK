@@ -4,7 +4,7 @@ import "./Slider.css";
 import slider_1 from "../../asisst/slider_1.jpg";
 import slider_2 from "../../asisst/slider_2.jpg";
 import slider_3 from "../../asisst/slider_3.webp";
-import slider_4 from "../../asisst/slider_4.webp";
+import slider_4 from "../../asisst/slider_4.jpg";
 import slider_5 from "../../asisst/slider_5.jpg";
 import slider_6 from "../../asisst/slider_6.jpg";
 import slider_7 from "../../asisst/slider_7.jpg";

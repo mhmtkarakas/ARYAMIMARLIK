@@ -15,7 +15,6 @@ const Anasayfa = () => {
       <AboutComponent />
       <Bathroom />
       <AnimatedText />
-    
     </div>
   );
 };

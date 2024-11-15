@@ -11,6 +11,10 @@ import "aos/dist/aos.css";
 import Home from "../src/pages/Home/Home.jsx";
 import Footer from './components/Footer/Footer';
 import BusinessPartners from "./pages/BusinessPartners/BusinessPartners";
+import WhatsappButton from "./components/WhatsappButton/WhatsappButton";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import CorporatePage from "./pages/CorporatePage/CorporatePage";
+
 
 function App() {
   useEffect(() => {
@@ -27,9 +31,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/isortaklarimiz" element={<BusinessPartners />} />
+          <Route path="/iletisim" element={<ContactPage />} />
+          <Route path="/kurumsal" element={<CorporatePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
+      <WhatsappButton />
     </div>
   );
 }

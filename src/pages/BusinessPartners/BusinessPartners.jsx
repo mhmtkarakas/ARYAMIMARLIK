@@ -1,6 +1,7 @@
 import React from "react";
 import "./BusinessPartners.css";
-import businessPartner from "../../asisst/business-partner.jpg";
+import { Link } from "react-router-dom";
+
 import mslider_13 from "../../asisst/mslider_13.png";
 import mslider_1 from "../../asisst/mslider_1.png";
 import mslider_2 from "../../asisst/mslider_2.png";
@@ -25,60 +26,143 @@ const BusinessPartners = () => {
       <div className="image-gallery-container">
         <div class="image-gallery">
           <div class="image-item">
-            <img src={mslider_13} alt="Resim 1" />
-            <p>Resim 1</p>
+            <Link  to={"https://www.duratiles.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_13} alt="Akgün Seramik" />
+            </Link>
+            <Link className="link" to={"https://www.duratiles.com.tr/"} target="_blank">
+              {" "}
+              <p>Akgün Seramik</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_1} alt="Resim 2" />
-            <p>Resim 2</p>
+            <Link to={"https://ngkutahyaseramik.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_1} alt="NG Kütahya Seramik" />
+            </Link>
+            <Link className="link" to={"https://ngkutahyaseramik.com.tr/"} target="_blank">
+              {" "}
+              <p>NG Kütahya Seramik</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_2} alt="Resim 3" />
-            <p>Resim 3</p>
+            <Link to={"https://www.creavit.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_2} alt="Creavit" />
+            </Link>
+            <Link className="link" to={"https://www.creavit.com.tr/"} target="_blank">
+              {" "}
+              <p>Creavit</p>
+            </Link>
+          </div>
+          <div class="image-item" to={"https://www.roca.com.tr/"} target="_blank">
+            <Link>
+              {" "}
+              <img src={mslider_3} alt="Roca Banyo" />
+            </Link>
+            <Link className="link" to={"https://www.roca.com.tr/"} target="_blank">
+              {" "}
+              <p>Roca Banyo</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_3} alt="Resim 4" />
-            <p>Resim 4</p>
+            <Link to={"https://pentabanyo.com/"} target="_blank">
+              {" "}
+              <img src={mslider_4} alt="Penta Banyo" />
+            </Link>
+            <Link className="link" to={"https://pentabanyo.com/"} target="_blank">
+              {" "}
+              <p>Penta Banyo</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_4} alt="Resim 5" />
-            <p>Resim 5</p>
+            <Link to={"https://www.sukar.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_5} alt="Sukar Su Gideri" />
+            </Link>
+            <Link className="link" to={"https://www.sukar.com.tr/"} target="_blank">
+              {" "}
+              <p>Sukar Su Gideri</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_5} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.artemis.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_6} alt="Artemis" />
+            </Link>
+            <Link className="link" to={"https://www.artemis.com.tr/"} target="_blank">
+              {" "}
+              <p>Artemis</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_6} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link  to={"https://www.evabanyo.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_7} alt="Eva Banyo" />
+            </Link>
+            <Link className="link" to={"https://www.evabanyo.com.tr/"} target="_blank">
+              {" "}
+              <p >Eva Banyo</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_7} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.orkabanyo.com/tr"} target="_blank">
+              {" "}
+              <img src={mslider_8} alt="Orka Banyo" />
+            </Link>
+            <Link className="link" to={"https://www.orkabanyo.com/tr"} target="_blank">
+              {" "}
+              <p>Orka Banyo</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_8} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.yasham.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_9} alt="Yasham Duvar Kağıtları" />
+            </Link>
+            <Link className="link" to={"https://www.yasham.com.tr/"} target="_blank">
+              {" "}
+              <p>Yasham Duvar Kağıtları</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_9} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://crauf.com/"} target="_blank">
+              {" "}
+              <img src={mslider_10} alt="Crauf" />
+            </Link>
+            <Link className="link" to={"https://crauf.com/"} target="_blank" >
+              {" "}
+              <p>Crauf</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_10} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.kyk.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_11} alt="KYK Yapı Kimyasalları" />
+            </Link>
+            <Link className="link" to={"https://www.kyk.com.tr/"} target="_blank">
+              {" "}
+              <p>KYK Yapı Kimyasalları</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_11} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.saint-gobain.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_12} alt="Weber Yapı Kimyasalları" />
+            </Link>
+            <Link className="link" to={"https://www.saint-gobain.com.tr/"} target="_blank">
+              {" "}
+              <p>Weber Yapı Kimyasalları</p>
+            </Link>
           </div>
           <div class="image-item">
-            <img src={mslider_12} alt="Resim 6" />
-            <p>Resim 6</p>
-          </div>
-          <div class="image-item">
-            <img src={mslider_14} alt="Resim 6" />
-            <p>Resim 6</p>
+            <Link to={"https://www.fixa.com.tr/"} target="_blank">
+              {" "}
+              <img src={mslider_14} alt="Resim 6" />
+            </Link>
+            <Link className="link" to={"https://www.fixa.com.tr/"} target="_blank">
+              <p>Fixa Yapı Kimyasalları</p>
+            </Link>
           </div>
         </div>
       </div>
