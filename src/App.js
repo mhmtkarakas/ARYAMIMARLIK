@@ -14,6 +14,7 @@ import BusinessPartners from "./pages/BusinessPartners/BusinessPartners";
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import CorporatePage from "./pages/CorporatePage/CorporatePage";
+import References from "./pages/References/References";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/isortaklarimiz" element={<BusinessPartners />} />
           <Route path="/iletisim" element={<ContactPage />} />
           <Route path="/kurumsal" element={<CorporatePage />} />
+          <Route path="/referanslar" element={<References />} />
         </Routes>
         <Footer />
       </BrowserRouter>

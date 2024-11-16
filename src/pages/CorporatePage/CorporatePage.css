@@ -1,24 +1,30 @@
 /* Üst Resim Alanı */
 .header-image h1 {
-    font-size: 3.5rem; /* Başlık boyutu */
+    font-size: 3.5rem; 
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Hafif gölge */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     padding: 10px 20px;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.5); /* Arka plan efekti */
+  }
+  .about-section{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   
   /* İçerik Alanı */
   .corporate-page p {
     font-size: 1.2rem;
-    line-height: 1.8;
-    color: #333;
-  }
+    text-align: justify;
+    line-height: 1.5;
+    color: #333;  }
   
   .corporate-page h2 {
     font-size: 2rem;
     font-weight: bold;
-    color: #007bff; /* Bootstrap'in mavi tonu */
+    color: #333; 
+    text-align: center;
+  }
+  .corporate-page h3{
+    font-size: 3rem;
   }
   
   .corporate-page img {
