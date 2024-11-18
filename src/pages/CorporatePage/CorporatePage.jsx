@@ -25,7 +25,7 @@ const CorporatePage = () => {
           <div className="col-md-6 about-section" data-aos="fade-right">
             <h2 className="mb-4 " >Hakkımızda</h2>
             <p>
-              Arya Mimarlık İnşaat olarak, inşaat ve perakende sektörlerinde
+              Arya Dizayn İnşaat olarak, inşaat ve perakende sektörlerinde
               müşteri memnuniyetini ve kaliteyi ön planda tutan bir hizmet
               anlayışıyla faaliyetlerimizi sürdürmekteyiz. 2012 yılında
               Mardin'de Çizgi Mimarlık adıyla başladığımız yolculuğumuza, son

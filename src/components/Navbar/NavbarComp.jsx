@@ -11,7 +11,7 @@ const NavbarComp = () => {
         <Container fluid className="navClass">
           <Navbar.Brand>
             <Link to="/" className="navbar-brand text-dark fw-bold">
-              ARYA MİMARLIK
+              ARYA DİZAYN İNŞAAT
             </Link>
           </Navbar.Brand>
 

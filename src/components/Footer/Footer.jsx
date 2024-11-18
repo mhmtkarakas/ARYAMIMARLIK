@@ -53,11 +53,11 @@ const Footer = () => {
           </Link>
         </div>
         <div className="footer-center">
-          <h2>Arya Mimarlık İnşaat</h2>
+          <h2>Arya Dizayn İnşaat</h2>
         </div>
         <div className="footer-info">
           <p>
-            © 2024 Arya Mimarlık İnşaat | Created by Mehmet Karakaş | 0542 331
+            © 2024 Arya Dizayn İnşaat | Created by Mehmet Karakaş | 0542 331
             7650
           </p>
         </div>
