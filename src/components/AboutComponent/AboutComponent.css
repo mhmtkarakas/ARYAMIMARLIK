@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 80%;
+  height: auto;
   margin: auto;
   padding: 20px;
   gap: 20px;
@@ -10,7 +11,7 @@
 }
 
 .about-content {
-  width: 30%; 
+  width: 30%;
 }
 
 .description {
@@ -31,9 +32,9 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.cta-button:hover{
-    transition: all 0.7s;
-    opacity: .9;
+.cta-button:hover {
+  transition: all 0.7s;
+  opacity: 0.9;
 }
 
 .aboutImg {
@@ -43,7 +44,7 @@
 }
 
 .aboutImg img {
-  width: 100%; 
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -52,14 +53,15 @@
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
-    width: 100%; 
+    width: 100%;
     padding: 10px;
+    margin-top: 50px;
   }
 
   .about-content {
-    width: 100%; 
+    width: 100%;
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   .aboutImg {

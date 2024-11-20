@@ -1,9 +1,9 @@
 .bathroom {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height: auto;
   overflow: hidden;
-  object-fit: contain;
+  object-fit: cover;
   margin-top: 50px;
 }
 
@@ -43,6 +43,6 @@
 /* Responsive uyum */
 @media (max-width: 768px) {
   .bathroom::after {
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
   }
 }

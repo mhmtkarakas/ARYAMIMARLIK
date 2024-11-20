@@ -3,7 +3,7 @@ import "./AnimatedText.css"
 
 const AnimatedText = () => {
     const [isVisible, setIsVisible] = useState(false);
-    const text = "Arya Mimarlık İnşaat";
+    const text = "Arya Dizayn İnşaat";
   
     useEffect(() => {
       const observer = new IntersectionObserver(

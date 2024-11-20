@@ -23,7 +23,6 @@ import mslider_11 from "../../asisst/mslider_11.png";
 import mslider_12 from "../../asisst/mslider_12.png";
 import mslider_13 from "../../asisst/mslider_13.png";
 import mslider_14 from "../../asisst/mslider_14.png";
-
 import "./MultipleItemsSlider.css";
 
 import "swiper/css";
@@ -68,129 +67,129 @@ const MultipleItemsSlider = () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
-          <SwiperSlide>
+          <SwiperSlide className="swiperSlide">
             <Link to={"https://www.duratiles.com.tr/"} target="_blank">
               <img
                 src={mslider_13}
                 alt="AkgunSeramik"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://ngkutahyaseramik.com.tr/"} target="_blank">
               <img
                 src={mslider_1}
                 alt="NGkutahyaSeramik"
-                className="slider-image img-fluid"
+                className="slider-image "
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.creavit.com.tr/"} target="_blank">
               <img
                 src={mslider_2}
                 alt="CreavitBanyo"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link to={"https://www.roca.com.tr/"} target="_blank">
+          <SwiperSlide  className="swiperSlide">
+          <Link to={"https://www.roca.com.tr/"} target="_blank">
               <img
                 src={mslider_3}
                 alt="Roca"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://pentabanyo.com/"} target="_blank">
               <img
                 src={mslider_4}
                 alt="Penta"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.sukar.com.tr/"} target="_blank">
               <img
                 src={mslider_5}
                 alt="Sukar"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.artemis.com.tr/"} target="_blank">
               <img
                 src={mslider_6}
                 alt="Artemis"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.evabanyo.com.tr/"} target="_blank">
               <img
                 src={mslider_7}
                 alt="EvaBanyo"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.orkabanyo.com/tr"} target="_blank">
               <img
                 src={mslider_8}
                 alt="OrkaBanyo"
-                className="slider-image img-fluid"
+                className="slider-image "
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.yasham.com.tr/"} target="_blank">
               <img
                 src={mslider_9}
                 alt="YashamDuvarKagidi"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://crauf.com/"} target="_blank">
               <img
                 src={mslider_10}
                 alt="Crauf"
-                className="slider-image img-fluid"
+                className="slider-image"
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.kyk.com.tr/"} target="_blank">
               <img
                 src={mslider_11}
                 alt="KYKYapiKimyasallari"
-                className="slider-image img-fluid"
+                className="slider-image "
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.saint-gobain.com.tr/"} target="_blank">
               <img
                 src={mslider_12}
                 alt="WeberYapiKimyasallari"
-                className="slider-image img-fluid"
+                className="slider-image "
               />
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
             <Link to={"https://www.fixa.com.tr/"} target="_blank">
               <img
                 src={mslider_14}
                 alt="FixaYapiKim"
-                className="slider-image img-fluid"
+                className="slider-image "
               />
             </Link>
           </SwiperSlide>

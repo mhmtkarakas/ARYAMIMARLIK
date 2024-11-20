@@ -56,7 +56,7 @@ const BusinessPartners = () => {
             </Link>
           </div>
           <div class="image-item" to={"https://www.roca.com.tr/"} target="_blank">
-            <Link>
+            <Link to={"https://www.roca.com.tr/"} target="_blank">
               {" "}
               <img src={mslider_3} alt="Roca Banyo" />
             </Link>
