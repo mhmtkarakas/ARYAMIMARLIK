@@ -1,78 +1,101 @@
+/* NavbarComp.css */
+
+/* Ana container */
 .main-container {
+  margin-bottom: 80px; /* Navbar sabit olduğu için içeriklere boşluk bırakır */
+}
+.fixed-top {
   width: 100%;
-  z-index: 1000;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  font-weight: 600;
-  border-top: black solid 5px;
-  background-color: #fff;
-}
-.main-container span:hover {
-  transition: all 0.7s ease;
-  color: black;
+  height: 100px; /* Navbar yüksekliği */
+  background-color: #fff; /* Arka plan rengi */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
 }
 
+/* Navbar genişliği ve konumlandırması */
 .navClass {
-  width: 97%;
-  margin-top: 25px;
+  padding: 0 40px; /* Sağ ve soldan boşluk */
 }
+
+/* Navbar Brand */
 .navbar-brand {
-  font-size: xx-large;
+  font-size: 2rem; /* Logo boyutu */
+  font-weight: 600;
+  text-transform: uppercase; /* Büyük harf */
+  letter-spacing: 1px; /* Harfler arası boşluk */
+  margin-right: auto; /* Solda hizala */
+  cursor: pointer;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  .navbar-brand {
-    margin-right: 0;
-    padding: 5px;
+/* Navbar linkler */
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Alan yetmezse alt alta dizilir */
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 1rem;
+  margin: 0 10px; /* Sağ ve soldan boşluk */
+  color: #333; /* Varsayılan renk */
+}
+
+.nav-links span:hover {
+  color: #333; /* Hover rengi */
+  font-weight: bold; /* Hover kalın yazı */
+}
+
+/* Span etiketi içindeki metin */
+
+.nav-links span {
+  padding: 0 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .fixed-top {
+    height: auto; /* Dinamik yükseklik */
+    padding: 10px;
   }
 
   .navbar-brand {
-    font-size: x-large;
+    font-size: 1rem; /* Daha küçük yazı boyutu */
+    font-weight: 500;
   }
-  .nav-icons {
-    font-size: large;
-    gap: 10px;
+
+  .nav-links {
+    flex-direction: column; /* Alt alta dizilir */
+    align-items: flex-start; /* Sol hizalanır */
+  }
+
+  .nav-link {
+    width: 100%; /* Tam genişlik */
+    text-align: left; /* Sol hizalı */
+  }
+
+  .nav-link span {
+    font-size: 0.9rem; /* Daha küçük yazı */
   }
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
-  .navClass {
-    padding: 20px;
+  .fixed-top {
+    height: auto; /* Dinamik yükseklik */
+    padding: 10px;
   }
-  .navbar-brand {
-    margin-right: 0;
-    padding: 5px;
-  }
-  .navIcons {
-    position: absolute;
-    gap: 5px;
-    top: 320px;
-    left: 28px;
-  }
-}
-/* Tablet Screen (max-width: 768px) */
-@media only screen and (max-width: 768px) {
-  .navClass {
-    padding: 20px;
-  }
-  .navbar-brand {
-    margin-right: 0;
-    padding: 5px;
-  }
-  .main-container {
-    padding-top: 60px; /* Adjust based on icon size */
-  }
-}
-/* Phone Screen (max-width: 576px) */
-@media only screen and (max-width: 576px) {
-  .navClass {
-    width: 100%;
+  .nav-links {
+    flex-wrap: wrap; /* Satır sığmazsa alt satıra geç */
+    align-items: flex-start; /* Sağ hizala */
+    gap: 15px; /* Elemanlar arasında daha fazla boşluk */
   }
 
-  .main-container {
-    padding-top: 50px; /* Ensure enough space */
+  .nav-link {
+    font-size: 1rem;
   }
+
   .navbar-brand {
-    margin-right: 0;
-    font-size: 20px;
+    font-size: 1.3rem;
   }
 }

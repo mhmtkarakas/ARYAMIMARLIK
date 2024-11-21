@@ -3,7 +3,7 @@ import "./ContactPage.css";
 
 const ContactPage = () => {
   return (
-    <div className="container my-5">
+    <div className="container ">
       <div className="row">
         {/* Sol Taraf: Google Harita */}
         <div className="col-md-6 mb-4 mb-md-0" data-aos="fade-right">

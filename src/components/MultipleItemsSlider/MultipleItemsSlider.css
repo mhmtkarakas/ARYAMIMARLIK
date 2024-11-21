@@ -1,11 +1,12 @@
 .swiper-container {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   margin-top: 100px;
   background-color: #fff;
-  height: 60vh;
+  height: 100vh;
   position: relative;
+  background-color: #f7f7f7;
 }
 .swiper-slides {
   margin: 10px;
@@ -14,18 +15,17 @@
 .swiper-slides h3 {
   margin-bottom: 65px;
 }
-.swiperSlide{
-  max-width: 100%;
-  height: 100%;
+.swiperSlide {
+  aspect-ratio: 7/9;
+  width: 100%;
   object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-
 }
 
-.swiperSlide img{
+.swiperSlide img {
   width: 100%;
   height: 100%;
   object-fit: cover;

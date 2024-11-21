@@ -43,6 +43,6 @@
 /* Responsive uyum */
 @media (max-width: 768px) {
   .bathroom::after {
-    font-size: 1.2rem; 
+    font-size: 12px; 
   }
 }

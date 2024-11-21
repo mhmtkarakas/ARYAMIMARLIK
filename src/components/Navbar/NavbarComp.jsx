@@ -6,33 +6,38 @@ import { Link } from "react-router-dom";
 const NavbarComp = () => {
   return (
     <div className="main-container">
-      <Navbar expand="lg" className=" fixed-top navbar-light bg-light  ">
+      <Navbar expand="lg" className="fixed-top navbar-light bg-light">
         <Container fluid className="navClass">
+          {/* Logo - Solda */}
           <Navbar.Brand>
-            <Link to="/" className="navbar-brand text-dark fw-bold">
+            <Link to="/" className="navbar-brand">
               ARYA DİZAYN İNŞAAT
             </Link>
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          {/* Hamburger Menu */}
+          <Navbar.Toggle aria-controls="basic-navbar-nav"  />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className=" justify-content-end  w-100 ">
-              <Nav.Link href="/" className=" active text-uppercase mx-2 ">
-                {" "}
+            {/* Menü - Sağda */}
+            <Nav className="justify-content-end w-100 nav-links ">
+              <Nav.Link href="/" className="nav-link text-uppercase mx-2">
                 <span>Anasayfa</span>
               </Nav.Link>
 
-              <Nav.Link href="/kurumsal" className=" text-uppercase mx-2 ">
-                <span>KURUMSAL</span>{" "}
+              <Nav.Link href="/kurumsal" className="nav-link text-uppercase mx-2">
+                <span>KURUMSAL</span>
               </Nav.Link>
-              <Nav.Link href="/isortaklarimiz" className="text-uppercase mx-2 ">
-                <span>İŞ ORTAKLARIMIZ</span>{" "}
+
+              <Nav.Link href="/isortaklarimiz" className="nav-link text-uppercase mx-2">
+                <span>İŞ ORTAKLARIMIZ</span>
               </Nav.Link>
-              <Nav.Link href="/referanslar" className=" text-uppercase  mx-2 ">
-                <span>REFERANSLARIMIZ</span>{" "}
+
+              <Nav.Link href="/referanslar" className="nav-link text-uppercase mx-2">
+                <span>REFERANSLARIMIZ</span>
               </Nav.Link>
-              <Nav.Link href="/iletisim" className=" text-uppercase mx-2 ">
-                <span>İletİŞİm</span>
+
+              <Nav.Link href="/iletisim" className="nav-link text-uppercase mx-2">
+                <span>İLETİŞİM</span>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -43,3 +48,4 @@ const NavbarComp = () => {
 };
 
 export default NavbarComp;
+

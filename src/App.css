@@ -8,5 +8,5 @@
 
 body {
   font-family: 'Cormorant', serif;
-  
+  overflow-x: hidden;
 }
