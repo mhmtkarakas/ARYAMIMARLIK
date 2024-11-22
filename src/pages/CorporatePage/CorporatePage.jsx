@@ -1,6 +1,8 @@
 import React from "react";
 import "./CorporatePage.css";
-import headerImage from "../../asisst/kurumsal.jpg"; // Header için resim yolu
+import headerImage from "../../asisst/kurumsal.jpg"; 
+import logo from "../../asisst/logo.png"; 
+
 
 const CorporatePage = () => {
   return (
@@ -63,7 +65,7 @@ const CorporatePage = () => {
           {/* Sağ Tarafta Logo ve Şirket İsmi */}
           <div className="col-md-6 text-center" data-aos="fade-left">
             <img
-              src=""
+              src={logo}
               alt="Arya Mimarlık Logo"
               className="img-fluid mb-3"
               style={{ maxWidth: "200px" }}

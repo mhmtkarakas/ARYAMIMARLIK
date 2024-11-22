@@ -7,6 +7,7 @@
 }
 .fixed-top {
   width: 100%;
+  max-width: 100%;
   height: 100px; /* Navbar yüksekliği */
   background-color: #fff; /* Arka plan rengi */
   display: flex;
@@ -28,16 +29,21 @@
 
 /* Navbar genişliği ve konumlandırması */
 .navClass {
-  padding: 0 40px; /* Sağ ve soldan boşluk */
+  padding: 0 15px; /* Sağ ve soldan boşluk */
+  width: 96%;
+  box-sizing: border-box;
 }
 
+.navbar-collapse{
+  width: 100%;
+  overflow-x: hidden;
+}
 /* Navbar Brand */
 .navbar-brand {
   font-size: 2rem; /* Logo boyutu */
   font-weight: 600;
   text-transform: uppercase; /* Büyük harf */
-  letter-spacing: 1px; /* Harfler arası boşluk */
-  margin-right: auto; /* Solda hizala */
+  letter-spacing: 1px;  /* Solda hizala */
   cursor: pointer;
 }
 
@@ -48,8 +54,7 @@
   flex-wrap: wrap; /* Alan yetmezse alt alta dizilir */
   justify-content: flex-end;
   gap: 10px;
-  font-size: 1rem;
-  margin: 0 10px; /* Sağ ve soldan boşluk */
+  font-size: 1rem; /* Sağ ve soldan boşluk */
   color: #333; /* Varsayılan renk */
 }
 
@@ -68,45 +73,44 @@
 
 @media (max-width: 768px) {
   .fixed-top {
-    height: auto; /* Dinamik yükseklik */
+    height: auto;
     flex-direction: row;
-  
   }
 
   .navbar-brand {
-    font-size: 1rem; /* Daha küçük yazı boyutu */
+    font-size: 1rem;
     font-weight: 500;
-    flex-grow: 1; /* Brand'i sola hizala */
-    text-align: left; /* Sol hizalı logo */
+    flex-grow: 1;
+    text-align: left;
   }
 
   .nav-links {
-    flex-direction: column; /* Alt alta dizilir */
-    align-items: flex-start; /* Sol hizalanır */
+    flex-direction: column;
+    align-items: flex-start;
   }
   .navbar-toggler {
-    margin-left: auto; /* Sağ tarafta yer alması için */
+    margin-right: 35px;
     text-align: right;
   }
   .nav-link {
-    width: 100%; /* Tam genişlik */
-    text-align: left; /* Sol hizalı */
+    width: 100%;
+    text-align: left;
   }
 
   .nav-link span {
-    font-size: 0.9rem; /* Daha küçük yazı */
+    font-size: 0.9rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .fixed-top {
-    height: auto; /* Dinamik yükseklik */
+    height: auto;
     padding: 10px;
   }
   .nav-links {
-    flex-wrap: wrap; /* Satır sığmazsa alt satıra geç */
-    align-items: flex-start; /* Sağ hizala */
-    gap: 15px; /* Elemanlar arasında daha fazla boşluk */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 15px;
   }
 
   .nav-link {

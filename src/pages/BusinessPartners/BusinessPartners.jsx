@@ -28,20 +28,20 @@ const BusinessPartners = () => {
           <div class="image-item">
             <Link to={"https://www.duratiles.com.tr/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_13} alt="Akgün Seramik" /> <p>Akgün Seramik</p>
+              <img src={mslider_13} alt="Akgün Seramik" /> <p className="img-text">Akgün Seramik</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://ngkutahyaseramik.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_1} alt="NG Kütahya Seramik" />{" "}
-              <p>NG Kütahya Seramik</p>
+              <p className="img-text">NG Kütahya Seramik</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.creavit.com.tr/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_2} alt="CreavitVitrifiye" /> <p>Creavit</p>
+              <img src={mslider_2} alt="CreavitVitrifiye" /> <p className="img-text"> Creavit</p>
             </Link>
           </div>
           <div
@@ -51,72 +51,72 @@ const BusinessPartners = () => {
           >
             <Link to={"https://www.roca.com.tr/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_3} alt="Roca Banyo" /> <p>Roca Banyo</p>
+              <img src={mslider_3} alt="Roca Banyo" /> <p className="img-text">Roca Banyo</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://pentabanyo.com/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_4} alt="Penta Banyo" /> <p>Penta Banyo</p>
+              <img src={mslider_4} alt="Penta Banyo" /> <p className="img-text">Penta Banyo</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.sukar.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_5} alt="Sukar Su Gideri" />{" "}
-              <p>Sukar Su Gideri</p>
+              <p className="img-text">Sukar Su Gideri</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.artemis.com.tr/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_6} alt="Artemis" /> <p>ArtemisDusKabini</p>
+              <img src={mslider_6} alt="Artemis" /> <p className="img-text">ArtemisDusKabini</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.evabanyo.com.tr/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_7} alt="Eva Banyo" /> <p>Eva Banyo</p>
+              <img src={mslider_7} alt="Eva Banyo" /> <p className="img-text">Eva Banyo</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.orkabanyo.com/tr"} target="_blank" className="link">
               {" "}
-              <img src={mslider_8} alt="Orka Banyo" /> <p>Orka Banyo</p>
+              <img src={mslider_8} alt="Orka Banyo" /> <p className="img-text">Orka Banyo</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.yasham.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_9} alt="Yasham Duvar Kağıtları" />{" "}
-              <p>Yasham Duvar Kağıtları</p>
+              <p className="img-text">Yasham Duvar Kağıtları</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://crauf.com/"} target="_blank" className="link">
               {" "}
-              <img src={mslider_10} alt="Crauf" /> <p>Crauf</p>
+              <img src={mslider_10} alt="Crauf" /> <p className="img-text">Crauf</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.kyk.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_11} alt="KYK Yapı Kimyasalları" />{" "}
-              <p>KYK Yapı Kimyasalları</p>
+              <p className="img-text">KYK Yapı Kimyasalları</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.saint-gobain.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_12} alt="Weber Yapı Kimyasalları" />{" "}
-              <p>Weber Yapı Kimyasalları</p>
+              <p className="img-text">Weber Yapı Kimyasalları</p>
             </Link>
           </div>
           <div class="image-item">
             <Link to={"https://www.fixa.com.tr/"} target="_blank" className="link">
               {" "}
               <img src={mslider_14} alt="Fixa Yapi Kimyasallari" />
-              <p>Fixa Yapı Kimyasalları</p>
+              <p className="img-text">Fixa Yapı Kimyasalları</p>
             </Link>
           </div>
         </div>

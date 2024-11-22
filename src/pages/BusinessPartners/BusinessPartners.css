@@ -43,7 +43,6 @@
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  transition: transform 0.5s ease;
 }
 
 .image-item img {
@@ -52,10 +51,16 @@
   border-radius: 8px;
   object-fit: cover;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 .image-item img:hover {
   transform: scale(1.05);
   transition: ease 0.5s;
+}
+.link {
+  text-decoration: none; 
+  color: inherit; 
+  cursor: pointer;
 }
 .image-item p {
   position: absolute; /* Beyaz alanı görselin altına yerleştirmek için */
@@ -64,7 +69,7 @@
   right: 0;
   margin: 0;
   padding: 10px;
-  background-color: #fff;
+  background-color:#fff;
   color: #333;
   font-size: 1rem;
   font-weight: bold;
@@ -72,16 +77,10 @@
   transition: bottom 0.3s ease, opacity 0.3s ease; /* Yumuşak geçişler için */
   opacity: 0; /* Başlangıçta tamamen görünmez */
 }
+
 .image-item:hover p {
   bottom: 0; /* Hover olduğunda beyaz alan görünür */
   opacity: 1; /* Yazıyı görünür hale getir */
 }
-.link {
-  text-decoration: none; 
-  color: inherit; 
-  cursor: pointer;
-}
-
-
 
 

@@ -19,6 +19,7 @@ import References from "./pages/References/References";
 
 function App() {
   useEffect(() => {
+    
     AOS.init({
       duration: 1500,
       once: true, 

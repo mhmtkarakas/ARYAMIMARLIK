@@ -2,12 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 
 body {
+  width: 100%;
   font-family: 'Cormorant', serif;
   overflow-x: hidden;
 }

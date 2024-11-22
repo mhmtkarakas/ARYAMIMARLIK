@@ -17,7 +17,7 @@ const NavbarComp = () => {
 
           {/* Hamburger Menu */}
           <Navbar.Toggle aria-controls="basic-navbar-nav"  className="navbar-toggler"/>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="navbar-collapse">
             {/* Menü - Sağda */}
             <Nav className="justify-content-end w-100 nav-links ">
               <Nav.Link href="/" className="nav-link text-uppercase mx-2">
