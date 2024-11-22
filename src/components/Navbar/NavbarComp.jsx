@@ -16,7 +16,7 @@ const NavbarComp = () => {
           </Navbar.Brand>
 
           {/* Hamburger Menu */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+          <Navbar.Toggle aria-controls="basic-navbar-nav"  className="navbar-toggler"/>
           <Navbar.Collapse id="basic-navbar-nav">
             {/* Menü - Sağda */}
             <Nav className="justify-content-end w-100 nav-links ">

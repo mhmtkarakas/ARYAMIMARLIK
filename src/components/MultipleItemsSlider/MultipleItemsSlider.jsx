@@ -98,7 +98,7 @@ const MultipleItemsSlider = () => {
           <Link to={"https://www.roca.com.tr/"} target="_blank">
               <img
                 src={mslider_3}
-                alt="Roca"
+                alt="RocaBanyo"
                 className="slider-image"
               />
             </Link>
@@ -107,7 +107,7 @@ const MultipleItemsSlider = () => {
             <Link to={"https://pentabanyo.com/"} target="_blank">
               <img
                 src={mslider_4}
-                alt="Penta"
+                alt="PentaBanyo"
                 className="slider-image"
               />
             </Link>
@@ -116,7 +116,7 @@ const MultipleItemsSlider = () => {
             <Link to={"https://www.sukar.com.tr/"} target="_blank">
               <img
                 src={mslider_5}
-                alt="Sukar"
+                alt="SukarSuGideri"
                 className="slider-image"
               />
             </Link>
@@ -125,7 +125,7 @@ const MultipleItemsSlider = () => {
             <Link to={"https://www.artemis.com.tr/"} target="_blank">
               <img
                 src={mslider_6}
-                alt="Artemis"
+                alt="ArtemisDusKabini"
                 className="slider-image"
               />
             </Link>
@@ -161,7 +161,7 @@ const MultipleItemsSlider = () => {
             <Link to={"https://crauf.com/"} target="_blank">
               <img
                 src={mslider_10}
-                alt="Crauf"
+                alt="CraufEvye"
                 className="slider-image"
               />
             </Link>
@@ -188,7 +188,7 @@ const MultipleItemsSlider = () => {
             <Link to={"https://www.fixa.com.tr/"} target="_blank">
               <img
                 src={mslider_14}
-                alt="FixaYapiKim"
+                alt="FixaYapiKimYasallari"
                 className="slider-image "
               />
             </Link>

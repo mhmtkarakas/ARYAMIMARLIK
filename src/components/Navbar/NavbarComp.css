@@ -3,6 +3,7 @@
 /* Ana container */
 .main-container {
   margin-bottom: 80px; /* Navbar sabit olduğu için içeriklere boşluk bırakır */
+  overflow-x: hidden;
 }
 .fixed-top {
   width: 100%;
@@ -12,6 +13,17 @@
   align-items: center;
   justify-content: space-between;
   overflow-x: hidden;
+  margin: 0;
+  flex-grow: 1; /* Sol tarafta yer kaplaması için */
+}
+.navbar-toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem; /* Toggle düğmesi boyutu */
+  background: none; /* Varsayılan arka planı kaldır */
+  border: none; /* Varsayılan çerçeveyi kaldır */
+  cursor: pointer;
 }
 
 /* Navbar genişliği ve konumlandırması */
@@ -57,19 +69,25 @@
 @media (max-width: 768px) {
   .fixed-top {
     height: auto; /* Dinamik yükseklik */
-    padding: 10px;
+    flex-direction: row;
+  
   }
 
   .navbar-brand {
     font-size: 1rem; /* Daha küçük yazı boyutu */
     font-weight: 500;
+    flex-grow: 1; /* Brand'i sola hizala */
+    text-align: left; /* Sol hizalı logo */
   }
 
   .nav-links {
     flex-direction: column; /* Alt alta dizilir */
     align-items: flex-start; /* Sol hizalanır */
   }
-
+  .navbar-toggler {
+    margin-left: auto; /* Sağ tarafta yer alması için */
+    text-align: right;
+  }
   .nav-link {
     width: 100%; /* Tam genişlik */
     text-align: left; /* Sol hizalı */
