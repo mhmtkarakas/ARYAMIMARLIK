@@ -3,22 +3,30 @@
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  background-color: #fff;
   height: 100vh;
   position: relative;
   background-color: #f7f7f7;
 }
+
 .swiper-slides {
   margin: 10px;
   width: 80%;
+  max-width: 1200px; /* Container'ın maksimum genişliğini sınırla */
 }
+
 .swiper-slides h3 {
   margin-bottom: 65px;
+  font-size: 30px; /* Varsayılan font boyutu */
+  font-weight: 500;
+  text-align: left; /* Metni ortala */
+  white-space: normal; /* Metni satırlara böl */
+  word-wrap: break-word; /* Uzun kelimeleri satır sonlarında böl */
+  max-width: 100%; /* H3'ün genişliğini sınırla */
 }
+
 .swiperSlide {
   aspect-ratio: 7/9;
   width: 100%;
-  object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,15 +39,17 @@
   object-fit: cover;
   object-position: center center;
 }
-/* responsive design */
+
+/* Responsive Design */
 @media (max-width: 576px) {
   .slider-image {
     height: 300px; /* Küçük ekranlarda daha küçük bir yükseklik */
     width: 100%;
   }
+
   .swiper-slides h3 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px; /* Küçük ekranlarda font boyutunu küçült */
+    margin-bottom: 24px; /* Boşluğu azalt */
   }
 }
 
@@ -48,11 +58,21 @@
     height: 400px; /* Orta boyutlu ekranlar için */
     width: 100%;
   }
+
+  .swiper-slides h3 {
+    font-size: 24px; /* Orta boyutlu ekranlarda font boyutunu ayarla */
+    margin-bottom: 40px; /* Boşluğu ayarla */
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .slider-image {
     height: 500px; /* Büyük ekranlar için */
     width: 100%;
+  }
+
+  .swiper-slides h3 {
+    font-size: 26px; /* Büyük ekranlarda font boyutunu ayarla */
+    margin-bottom: 50px; /* Boşluğu ayarla */
   }
 }

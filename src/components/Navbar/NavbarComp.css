@@ -1,11 +1,11 @@
-/* NavbarComp.css */
-
 /* Ana container */
 .main-container {
-  margin-bottom: 80px; /* Navbar sabit olduğu için içeriklere boşluk bırakır */
-  overflow-x: hidden;
+  margin-bottom: 40px; /* Navbar sabit olduğu için içeriklere boşluk bırakır */
 }
+
 .fixed-top {
+  position: sticky; /* fixed yerine sticky kullanın */
+  top: 0;
   width: 100%;
   max-width: 100%;
   height: 100px; /* Navbar yüksekliği */
@@ -16,7 +16,9 @@
   overflow-x: hidden;
   margin: 0;
   flex-grow: 1; /* Sol tarafta yer kaplaması için */
+  z-index: 1000; /* Diğer elementlerin üzerinde kalmasını sağlar */
 }
+
 .navbar-toggler {
   display: flex;
   justify-content: center;
@@ -25,6 +27,13 @@
   background: none; /* Varsayılan arka planı kaldır */
   border: none; /* Varsayılan çerçeveyi kaldır */
   cursor: pointer;
+  outline: none; /* Tıklama sırasında çıkan çerçeveyi kaldır */
+}
+
+/* Toggle düğmesine tıklandığında çıkan çerçeveyi kaldır */
+.navbar-toggler:focus {
+  outline: none; /* Focus durumunda çerçeveyi kaldır */
+  box-shadow: none; /* Bazı tarayıcılarda çıkan gölgeyi kaldır */
 }
 
 /* Navbar genişliği ve konumlandırması */
@@ -34,16 +43,18 @@
   box-sizing: border-box;
 }
 
-.navbar-collapse{
+.navbar-collapse {
+  max-height: 90vh; /* Maksimum yükseklik */
+  overflow-y: auto; /* Taşma durumunda dikey kaydırma */
   width: 100%;
-  overflow-x: hidden;
 }
+
 /* Navbar Brand */
 .navbar-brand {
   font-size: 2rem; /* Logo boyutu */
   font-weight: 600;
   text-transform: uppercase; /* Büyük harf */
-  letter-spacing: 1px;  /* Solda hizala */
+  letter-spacing: 1px; /* Solda hizala */
   cursor: pointer;
 }
 
@@ -64,7 +75,6 @@
 }
 
 /* Span etiketi içindeki metin */
-
 .nav-links span {
   padding: 0 5px;
   cursor: pointer;
@@ -72,9 +82,14 @@
 }
 
 @media (max-width: 768px) {
+  .main-container {
+    margin-bottom: 20px; /* Navbar sabit olduğu için içeriklere boşluk bırakır */
+  }
+  
   .fixed-top {
     height: auto;
     flex-direction: row;
+    padding: 10px; /* İç boşluk ekleyin */
   }
 
   .navbar-brand {
@@ -84,17 +99,27 @@
     text-align: left;
   }
 
+  .navbar-toggler {
+    margin-left: auto;
+    text-align: right;
+    padding: 0.5rem; /* Toggle düğmesine boşluk ekleyin */
+  }
+
+  .navbar-collapse {
+    background-color: #fff; /* Arka plan rengi */
+    padding: 10px; /* İç boşluk ekleyin */
+  }
+
   .nav-links {
     flex-direction: column;
     align-items: flex-start;
+ 
   }
-  .navbar-toggler {
-    margin-right: 35px;
-    text-align: right;
-  }
+
   .nav-link {
     width: 100%;
     text-align: left;
+    padding: 0.3rem 0; /* Linklere boşluk ekleyin */
   }
 
   .nav-link span {
@@ -107,6 +132,7 @@
     height: auto;
     padding: 10px;
   }
+
   .nav-links {
     flex-wrap: wrap;
     align-items: flex-start;

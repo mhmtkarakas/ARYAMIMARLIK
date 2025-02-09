@@ -1,6 +1,8 @@
-.container {
-  margin-top: 10rem;
- 
+.card-container {
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 6rem;
 }
 .card-group {
   gap: 20px; 
@@ -23,8 +25,8 @@
 }
 
 @media (max-width: 768px) {
-  .container {
-    margin-top: 5rem;
+  .card-container {
+    margin-top: 2rem;
    
   }
   .card-group {

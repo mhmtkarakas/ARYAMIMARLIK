@@ -28,8 +28,11 @@ function App() {
 
   return (
     <div>
+     
       <BrowserRouter>
+     
         <NavbarComp />
+         <WhatsappButton /> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/isortaklarimiz" element={<BusinessPartners />} />
@@ -39,7 +42,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-      <WhatsappButton />
+    
     </div>
   );
 }

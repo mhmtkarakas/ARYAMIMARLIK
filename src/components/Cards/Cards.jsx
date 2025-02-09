@@ -7,7 +7,7 @@ import people from "../../asisst/people.png";
 
 const Cards = () => {
   return (
-    <div className="container" >
+    <div className="card-container" >
       <div className="card-group text-center " >
         <div className="card " data-aos="fade-right">
           <img src={eye} className="card-img-top" alt="Goz" />
