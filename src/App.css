@@ -1,18 +1,1 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
-
-body, html {
-  width: 100%;
-  font-family: 'Cormorant', serif;
-  overflow-x: hidden !important;
-}
-
-img, video, iframe, table {
-  max-width: 100%; /* Elementlerin genişliğini sınırlar */
-  height: auto; /* Oranları korur */
-}
+*{padding:0;margin:0;box-sizing:border-box;}@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');body,html{width:100%;font-family:'Cormorant',serif;overflow-x:hidden!important;}img,video,iframe,table{max-width:100%;height:auto}
